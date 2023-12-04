@@ -1,9 +1,8 @@
-import Image from 'next/image'
 
-export default function Home() {
+export default function Page() {
   return (
       <div>
-        Navegação
+        Estou dentro de ABC - DEF - GHI
       </div>
   )
 }
