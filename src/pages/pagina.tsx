@@ -10,10 +10,10 @@ export default function Pagina(){
                 titulo = 'Minha Página'
                 subtitulo = 'Estou na pasta pages'
             />
-            <Conteudo/>
-            <Rodape/>
-
-
+            <Conteudo>
+                Implementando chidren
+            </Conteudo>
+            <Rodape/> 
         </div>
     )
 }
