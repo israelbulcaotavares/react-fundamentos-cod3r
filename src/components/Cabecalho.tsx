@@ -1,4 +1,10 @@
-export default function Cabecalho(props: any) {
+interface CabecalhoProps {
+  titulo: string, 
+  subtitulo: string,
+  className: string 
+}
+
+export default function Cabecalho(props: CabecalhoProps) {
   console.log(props);
   return (
     <div
