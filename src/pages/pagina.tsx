@@ -13,7 +13,11 @@ export default function Pagina(){
             <Conteudo>
                 Implementando chidren
             </Conteudo>
-            <Rodape/> 
+
+            <Rodape
+                textoEsquerda="Esquerda"
+                textoDireita="Direita"
+            /> 
         </div>
     )
 }
