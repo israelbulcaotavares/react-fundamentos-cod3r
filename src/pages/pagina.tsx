@@ -11,7 +11,11 @@ export default function Pagina() {
 
       <div className="flex flex-1 gap-5">
         <Menu />
-        <Conteudo>Implementando chidren</Conteudo>
+        <Conteudo>
+            <button className="bg-blue-500 p-2 rounded-md">
+                Teste
+            </button>
+        </Conteudo>
       </div>
 
       <Rodape textoEsquerda="Esquerda" textoDireita="Direita" />

@@ -1,17 +1,19 @@
 import Cabecalho from "@/components/Cabecalho";
 import Conteudo from "@/components/Conteudo";
 import Menu from "@/components/Menu";
+import Pagina from "@/components/Pagina";
 import Rodape from "@/components/Rodape";
 
 export default function Page() {
   return (
-    <div className="flex flex-col gap-4 p-4 h-screen">
-      <Cabecalho titulo="Minha Página" subtitulo="Estou na pasta pages"  />
-      <div className="flex flex-1 gap-4">
-        <Menu />
-        <Conteudo>Implementando chidren</Conteudo>
-      </div>
-      <Rodape />
-    </div>
+    <Pagina titulo= "Minha Aplicação" subtitulo="Melhor app da Web!">
+       <ul className="list-disc">
+            <li>Ana</li>
+            <li>Gustavo</li>
+            <li>Rebeca</li>
+            <li>Zico</li>
+          </ul>
+      </Pagina>
+    
   );
 }
