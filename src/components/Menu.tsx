@@ -8,7 +8,7 @@ export default function Menu() {
       <MenuItem
         icone={<IconCode />}
         texto="Componente sem estado"
-        url="/componente/basico"
+        url="/estado/semEstado"
         />
       <span className="text-sm text-zinc-500 pl-3 pt-4 ">Fundamentos</span>
       <MenuItem
