@@ -5,12 +5,12 @@ interface ConteudoProps {
 export default function Conteudo(props: ConteudoProps) {
   return (
     <div className="
-        flex justify-center 
-        items-center 
+        flex  
+        items-start 
         flex-1 
-        bg-emerald-500 
-        text-3xl 
-        rounded-lg">
+        p-4
+        bg-zinc-900
+        text-3xl rounded-lg ">
       {props.children}
     </div>
   );

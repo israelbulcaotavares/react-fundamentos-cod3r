@@ -1,8 +1,4 @@
-import Cabecalho from "@/components/Cabecalho";
-import "../app/globals.css";
-import Conteudo from "@/components/Conteudo";
-import Rodape from "@/components/Rodape";
-import Menu from "@/components/Menu";
+import "../app/globals.css"; 
 import Pagina from "@/components/Pagina";
 
 export default function TestePagina() {

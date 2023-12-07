@@ -10,15 +10,12 @@ export default function Cabecalho(props: CabecalhoProps) {
     <div
       className={`
       flex flex-col 
-      justify-center 
-      items-center 
-      h-36 
-      bg-purple-500 
-      rounded-lg 
+      justify-center    
+      px-5 
       ${props.className ?? ''}`}
     >
-      <h1 className="text-3xl font-black">{props.titulo}</h1>
-      <h1>{props.subtitulo}</h1>
+      <h1 className="text-xl font-black">{props.titulo}</h1>
+      <h1 className="text-sm text-zinc-400">{props.subtitulo}</h1>
     </div>
   );
 }
