@@ -1,4 +1,4 @@
-import { Icon24Hours, Icon360View, IconBraces, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
+import { Icon24Hours, Icon360View, IconBraces, IconCalculator, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
@@ -25,6 +25,12 @@ export default function Menu() {
         icone={<IconForms />}
         texto="Campo Texto"
         url="/estado/campoTexto"
+        />
+      <span className="text-sm text-zinc-500 pl-3 pt-4 ">Desafios</span>
+      <MenuItem
+        icone={<IconCalculator />}
+        texto="Calculadora"
+        url="/estado/calculadora"
         />
       <span className="text-sm text-zinc-500 pl-3 pt-4 ">Fundamentos</span>
       <MenuItem
