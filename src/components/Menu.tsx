@@ -1,4 +1,4 @@
-import { Icon24Hours, Icon360View, IconArrowDownSquare, IconBraces, IconCalculator, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
+import { Icon24Hours, Icon360View, IconArrowDownSquare, IconArrowUpSquare, IconBraces, IconCalculator, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
@@ -11,7 +11,7 @@ export default function Menu() {
         url="/comunicacao/direta"
         />
       <MenuItem
-        icone={<IconArrowDownSquare />}
+        icone={<IconArrowUpSquare />}
         texto="Comunicação indireta"
         url="/comunicacao/indireta"
         />
