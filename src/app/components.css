@@ -1,0 +1,7 @@
+.botao{
+    @apply bg-green-500 px-4  p-2;
+    @apply text-white rounded-md;
+    @apply hover:bg-red-800;
+    @apply text-lg;
+     
+  }
