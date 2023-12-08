@@ -1,9 +1,20 @@
-import { Icon24Hours, Icon360View, IconBraces, IconCalculator, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
+import { Icon24Hours, Icon360View, IconArrowDownSquare, IconBraces, IconCalculator, IconCode, IconForms, IconHome, IconNumbers } from "@tabler/icons-react";
 import MenuItem from "./MenuItem";
 
 export default function Menu() {
   return (
     <div className="flex flex-col justify-start w-72 bg-black p-2 gap-2">
+      <span className="text-sm text-zinc-500 pl-3 pt-4 ">Comunicação</span>
+      <MenuItem
+        icone={<IconArrowDownSquare />}
+        texto="Comunicação direta"
+        url="/comunicacao/direta"
+        />
+      <MenuItem
+        icone={<IconArrowDownSquare />}
+        texto="Comunicação indireta"
+        url="/comunicacao/indireta"
+        />
       <span className="text-sm text-zinc-500 pl-3 pt-4 ">Estado</span>
       <MenuItem
         icone={<IconCode />}
@@ -32,6 +43,7 @@ export default function Menu() {
         texto="Calculadora"
         url="/estado/calculadora"
         />
+      
       <span className="text-sm text-zinc-500 pl-3 pt-4 ">Fundamentos</span>
       <MenuItem
         icone={<IconHome />}
